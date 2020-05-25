@@ -1,7 +1,7 @@
 node{
 stage('SCM Checkout')
 {
-git https://github.com/gayamm/jenkins-maven
+git 'https://github.com/gayamm/jenkins-maven'
 }
 stage('Compile-Package')
 {
